@@ -38,7 +38,7 @@
 
 <h1>Bolt Definer</h1>
 
-
+<pre><code><?=print_r($_POST)?></code></pre>
 <form method="POST"> 
 	<?php foreach ($attributes as $attribute) { ?>
 		<section>
@@ -51,7 +51,8 @@
 					id='<?=$attribute['prefix'] . $index?>'
 					type="radio" 
 					name="<?=$attribute['title']?>"
-					value='<?=$option['value']?>'>
+					value='<?=$option['value']?>'
+					required="required">
 				</div>
 
 
