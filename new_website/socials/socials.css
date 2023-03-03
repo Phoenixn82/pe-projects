@@ -1,0 +1,17 @@
+/*.inner-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+  width: 80vw;
+ 
+}
+.icon-row-socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 20vh;
+  
+}
+
+*/

@@ -1,0 +1,23 @@
+.icon-row-projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 20vh;
+  
+}
+.grid-item {
+  width: 10vw;
+  display: flex;
+}
+
+/*FOR WHEN THE GRID
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10vh;
+}
+
+.grid-item {
+  width: 10vw;
+}*/

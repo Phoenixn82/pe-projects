@@ -1,0 +1,74 @@
+.home-menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 10vh auto ;
+  justify-content: center;
+  align-content: center;
+  max-height: 100vh;
+  align-items: center;
+  /*border:  2px solid red;
+*/  
+}
+.home-menu .projects {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+
+  
+}
+.home-menu .contact {
+  grid-column:  2 / 3;
+  grid-row:  1 / 2;
+  
+}
+.home-menu .resume{
+  grid-column:  1 / 2;
+  grid-row:  3 / 4;
+  
+}
+.home-menu .socials {
+  grid-column:  2 / 3;
+  grid-row:  3 / 4;
+  
+}
+
+.home-menu .icon {
+  justify-self: center;
+
+  max-width: 15vw;
+
+  display:  grid;
+  place-items:  center;
+  
+  height: 100%;
+  position: relative;
+
+
+}
+
+.home-menu .icon-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 40px;
+  
+}
+
+.home-menu .icon h2 {
+  font-size:  2.5vh;
+  position: absolute;
+  text-align: center;
+  margin-top:  auto;
+  font-size: clamp(15px, 5vw, 30px);
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+}
+
+.home-menu .word-container {
+  grid-column:  span 2;
+  grid-row:  2 / 3;
+  text-align: center;
+  font-size: clamp(15px, 5vw, 30px);
+}
+

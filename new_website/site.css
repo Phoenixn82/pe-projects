@@ -1,0 +1,39 @@
+@import"css_setup/reset.css";
+@import"css_setup/setup.css";
+@import"socials/socials.css";
+@import"projects/projects.css";
+@import"phone_size.css";
+@import"home/home_menu.css";
+
+/*header*//*header*//*header*/
+
+header {
+  margin: 20px;
+}
+
+.header-icon-phone {
+  display: none;
+}
+
+body {
+  display: grid;
+
+  min-height:  100vh;
+  /*border:  2px solid red;*/
+
+  grid-template-rows: auto 1fr auto;
+}
+
+main {
+  display: grid;
+  align-items:  center;
+  /*border: 2px solid green;*/
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+  
+}
