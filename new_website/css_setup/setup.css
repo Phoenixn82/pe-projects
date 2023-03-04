@@ -36,8 +36,9 @@ body {
   background-color: #151619;
   color: white;
 }
-@import "https://fonts.googleapis.com/css?family=Roboto+Mono:100";
 
-h2, p, h1, h3 {
-  font-family: "Roboto Mono";
+
+h2, p, h1, h3, a {
+ font-family: 'helvetica';
+ font-weight: 200;
 }

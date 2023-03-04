@@ -1,10 +1,11 @@
-/*.inner-column {
+.inner-column {
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 80vh;
   width: 80vw;
- 
+ margin-right: auto;
+  margin-left: auto;
 }
 .icon-row-socials {
   display: flex;
@@ -12,6 +13,6 @@
   justify-content: space-between;
   height: 20vh;
   
+  
 }
 
-*/

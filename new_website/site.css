@@ -30,6 +30,7 @@ main {
   /*border: 2px solid green;*/
 }
 
+/*footer*//*footer*//*footer*/
 footer {
   display: flex;
   flex-direction: row;
@@ -37,3 +38,4 @@ footer {
   margin: 20px;
   
 }
+
