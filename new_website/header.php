@@ -13,9 +13,8 @@
 
 		<header>
 				<div class="header-icon">
-				  	<a href="index.php">
 						<?php include("icons/header-icon.php");?>
-					</a>
+
 				</div>
 
 				<div class="header-icon-phone">

@@ -6,7 +6,7 @@
 .text-scramble-js {
   flex-direction: row;
   justify-content: center;
-  font-size: clamp(10px, 4vw, 60px);
+
   color: #fafafa;
 }
 

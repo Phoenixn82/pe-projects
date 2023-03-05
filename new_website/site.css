@@ -4,23 +4,24 @@
 @import"projects/projects.css";
 @import"phone_size.css";
 @import"home/home_menu.css";
+@import"e4p/exercises_for_programmers.css";
 
 /*header*//*header*//*header*/
 
 header {
-  margin: 20px;
+  margin: -20px 20px 20px 20px;
 }
 
 .header-icon-phone {
   display: none;
 }
 
+/*body*//*body*//*body*/
+
 body {
   display: grid;
-
   min-height:  100vh;
   /*border:  2px solid red;*/
-
   grid-template-rows: auto 1fr auto;
 }
 
@@ -35,7 +36,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 20px;
+  margin: 0px 20px 20px 20px;
   
 }
 

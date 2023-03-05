@@ -25,6 +25,10 @@
 		include("projects/projects.php");
 	}
 
+	if ($page == "e4p") {
+		include("e4p/exercises_for_programmers.php");
+	}
+
  ?>
 
 <?php include("footer.php"); ?>
