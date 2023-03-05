@@ -1,1 +1,103 @@
-resume.css
+.timeline-right {
+  position: absolute;
+  right: 0;
+  width: 40vw;
+  top: 40%;
+}
+
+.timeline-left {
+  position: absolute;
+  left: 0;
+  width: 60vw;
+  top: 15%;
+}
+
+.timeline-top {
+  Display: none;
+  
+}
+
+.timeline-bottom {
+  display: none;
+  
+}
+
+@media(max-width: 1500px) {
+  .timeline-right {
+  width: 50vw;
+  top: 55%;
+}
+
+.timeline-left {
+  width: 70vw;
+  top: 20%;
+}
+}
+
+@media(max-width: 1100px) {
+    .timeline-right, .header-icon, .footer-icon, .timeline-left {
+      display: none;
+  }
+  .timeline-top {
+  Display: block;
+    position: absolute;
+    top: 0px;
+    right: 35%;
+}
+
+.timeline-bottom {
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  right: 35%;
+} 
+}
+
+@media(max-width: 900px) {
+  .timeline-top {
+    right: 30%;
+}
+
+.timeline-bottom {
+  right: 30%;
+}  
+}
+
+@media(max-width: 800px) {
+  .timeline-top {
+    right: 27%;
+}
+
+.timeline-bottom {
+  right: 27%;
+}
+}
+@media(max-width: 700px) {
+  .timeline-top {
+    right: 25%;
+}
+
+.timeline-bottom {
+  right: 25%;
+}
+}
+
+@media(max-width: 600px) {
+  .timeline-top {
+    right: 20%;
+}
+
+.timeline-bottom {
+  right: 20%;
+}
+}
+
+@media(max-width: 400px) {
+  .timeline-top {
+    right: 10%;
+}
+
+.timeline-bottom {
+  right: 10%;
+}
+}

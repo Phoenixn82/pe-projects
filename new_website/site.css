@@ -2,6 +2,7 @@
 @import"css_setup/setup.css";
 @import"socials/socials.css";
 @import"projects/projects.css";
+@import"resume/resume.css";
 @import"phone_size.css";
 @import"home/home_menu.css";
 @import"e4p/exercises_for_programmers.css";
@@ -37,6 +38,6 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   margin: 0px 20px 20px 20px;
+
   
 }
-
