@@ -1,8 +1,9 @@
 .e4p-body {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
   padding: 5vh 20px;
-  grid-template-rows: auto;
+ 
 }
 
 .form h1,
