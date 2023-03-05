@@ -1,7 +1,7 @@
 .e4p-body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  padding: 5vh 20px;
+  
 }
 
 .form h1,
@@ -72,46 +72,6 @@ button {
 .output {
   margin-bottom: 3vh;
 }
-
-/*phone size*//*phone size*//*phone size*/
-
-@media (max-width: 1600px) {
-  .e4p-body {
-    grid-template-columns: repeat(4, 1fr);
-  }
-  .form-parent {
-    width:  25vw;
-  }
-}
-
-@media (max-width: 1200px) {
-  .e4p-body {
-    grid-template-columns: repeat(3, 1fr);
-  }
-  .form-parent {
-    width:  33vw;
-  }
-}
-
-@media (max-width: 900px) {
-  .e4p-body {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .form-parent {
-    width:  50vw;
-  }
-}
-
-@media (max-width: 600px) {
-  .e4p-body {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .form-parent {
-    width:  100vw;
-  }
-}
-
-
 
 
 

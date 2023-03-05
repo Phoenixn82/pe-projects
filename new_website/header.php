@@ -19,7 +19,7 @@
 
 				<div class="header-icon-phone">
 					<a href="index.php">
-						<?php include("icons/home-icon.php"); ?>
+						<?php include("icons/phone-header.php"); ?>
 					</a>
 				</div>
 			</section>

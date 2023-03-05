@@ -1,49 +1,210 @@
-@media (max-width: 660px) {
+/*main*/  /*main*/  /*main*/
 
-  .icon-row-projects{
-    flex-direction: column;
-    justify-content: space-between;
-    height: 80vh;
-    margin-top: 4vh;
+.header-icon-phone {
+  display: none;
+}
+
+@media (max-width: 1100px) {
+
+  .header-icon-phone {
+    display: block;
+    margin:  0px;
 
   }
+  .footer-icon-phone {
+    display: block;
+    margin:  0px;
+
+  }
+}
+@media (max-width: 1100px) {
   .inner-column {
     display: flex;
     flex-direction: row;
     justify-content: center;
     height: 80vh;
     width: 80vw;
-    margin-top: 4vh;
    
   }
-  .grid-item {
-  width: 20vw;
-  
+
+  .footer-icon-phone {
+    display: block;
   }
-  .icon-row-socials{
+
+
+  .header-icon {
+    display: none
+  }
+
+  .footer-icon {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+.home-menu .icon {
+  max-width: 30vw;
+
+}
+}
+/*e4p*//*e4p*//*e4p*//*e4p*//*e4p*//*e4p*//*e4p*/
+
+@media (max-width: 1600px) {
+  .e4p-body {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .form-parent {
+  }
+
+}
+
+@media (max-width: 1200px) {
+  .e4p-body {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5vh 20px;
+  }
+  .form-parent {
+    width:  33vw;
+  }
+
+}
+
+@media (max-width: 900px) {
+  .e4p-body {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .form-parent {
+    width:  50vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .e4p-body {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .form-parent {
+    width:  100vw;
+  }
+}
+
+/*socials*//*socials*//*socials*//*socials*/
+
+@media (max-width: 1100px) {
+
+.icon-row-socials{
     flex-direction: column;
     justify-content: space-between;
     height: 80vh;
     margin-top: 4vh;
 
   }
-  .socials {
-    width: 20vw;
-    
-  }
-  .website-top {
-  justify-content: center;
-  }
-  .header-icon-phone {
-    display: block;
-    width: 40vw;
-    margin-top: 2vh;
+/*projects*//*projects*//*projects*/
 
+@media (max-width: 1200px) {
+  .individual-projects {
+    grid-template-columns: repeat(3, 1fr);
   }
-  .header-icon {
-    display: none
-  }
-  footer {
-    display: none;
+  .grid-item {
+    width:  15vw;
   }
 }
+
+@media (max-width: 1000px) {
+  .individual-projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-item {
+    width:  20vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .individual-projects {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+
+/*resume*//*resume*//*resume*//*resume*/
+
+@media(max-width: 1500px) {
+  .timeline-right {
+  width: 50vw;
+  top: 55%;
+}
+
+.timeline-left {
+  width: 70vw;
+  top: 20%;
+}
+}
+
+@media(max-width: 1100px) {
+    .timeline-right, .header-icon, .footer-icon, .timeline-left {
+      display: none;
+  }
+  .timeline-top {
+  Display: block;
+    position: absolute;
+    top: 0px;
+    right: 35%;
+}
+
+.timeline-bottom {
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  right: 35%;
+} 
+}
+
+@media(max-width: 900px) {
+  .timeline-top {
+    right: 30%;
+}
+
+.timeline-bottom {
+  right: 30%;
+}  
+}
+
+@media(max-width: 800px) {
+  .timeline-top {
+    right: 27%;
+}
+
+.timeline-bottom {
+  right: 27%;
+}
+}
+@media(max-width: 700px) {
+  .timeline-top {
+    right: 25%;
+}
+
+.timeline-bottom {
+  right: 25%;
+}
+}
+
+@media(max-width: 600px) {
+  .timeline-top {
+    right: 20%;
+}
+
+.timeline-bottom {
+  right: 20%;
+}
+}
+
+@media(max-width: 400px) {
+  .timeline-top {
+    right: 10%;
+}
+
+.timeline-bottom {
+  right: 10%;
+}
+}
+
+
