@@ -1,0 +1,2 @@
+<h1>Home Page</h1>
+<p>Brazos Fasteners, Inc. is a Brazosport Texas locally owned and operated full line fastener distributor. For more than 25 years, we have supplied the petrochemical industry and other Gulf Coast area industries with a wide variety of fasteners for manufacturing, construction, and maintenance.</p>
