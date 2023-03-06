@@ -1,4 +1,3 @@
-
 class TextScramble {
   constructor(el) {
     this.el = el
@@ -57,22 +56,25 @@ class TextScramble {
 // Example
 // ——————————————————————————————————————————————————
 
-const phrases = [
-  'Hi!',
-  'My name is Phoenix',
-  'I specialize in all things web developement',
-  'Click here to learn more about me'
-]
+const phrases = [  { text: 'Hi!', delay: 1000 },  { text: 'My name is Phoenix', delay: 1000 },  { text: 'I specialize in all things web development', delay: 1000 },  { text: 'Click here to learn more about me', delay: 1000 }, { text: 'Click here to learn more about me', delay: 10000 }]
 
 const el = document.querySelector('.text-scramble-js')
 const fx = new TextScramble(el)
 
-let counter = 0
+let currentPhraseIndex = 0
 const next = () => {
-  fx.setText(phrases[counter]).then(() => {
-    setTimeout(next, 800)
-  })
-  counter = (counter + 1) % phrases.length
+  const { text, delay } = phrases[currentPhraseIndex]
+  setTimeout(() => {
+    fx.setText(text).then(() => {
+      if (currentPhraseIndex === phrases.length - 1) {
+        // For the last phrase, simply call next() without any delay
+        next()
+      } else {
+        currentPhraseIndex++
+        setTimeout(next, delay)
+      }
+    })
+  }, delay)
 }
 
 next()
