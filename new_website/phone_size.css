@@ -134,6 +134,13 @@
 
 /*resume*//*resume*//*resume*//*resume*/
 
+@media(max-height: 1200px) {
+
+.lower-svg {
+  display: none;
+}
+
+}
 @media(max-width: 1500px) {
   .timeline-right {
   width: 50vw;
