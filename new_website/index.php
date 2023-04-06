@@ -26,7 +26,7 @@
 	}
 
 	if ($page == "e4p") {
-		include("e4p/exercises_for_programmers.php");
+		include("e4p/e4p_home.php");
 	}
 
  ?>
