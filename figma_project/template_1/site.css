@@ -1,0 +1,21 @@
+@import"../css_setup/reset.css";
+@import"../css_setup/setup.css";
+@import"hero/hero.css";
+@import"clients/clients.css";
+@import"faq/faq.css";
+@import"feature/feature.css";
+@import"cta/cta.css";
+@import"center_content/center_content.css";
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.header-nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 20px;
+}
