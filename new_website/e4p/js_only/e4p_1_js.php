@@ -16,12 +16,10 @@
 <section class="form-parent">
   <form>
     <div class="form">
-	<h1>Counter Count JS</h1>
+	<h1>Character Count JS</h1>
 
-      <field class="text">
         <label for="input">What is the input string?</label>
         <input id="input" type="text">
-      </field>
       <button type="text" id="submit">Enter</button>
     </div>
   </form>
