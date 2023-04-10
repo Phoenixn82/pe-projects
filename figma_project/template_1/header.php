@@ -9,12 +9,13 @@
 </head>
 <body>
 <header>
+
 	<div class="header-nav">
 		<a class='home-link' href="#">Home</a>
-		<a href="#">Updates</a>
-		<a href="#">Services</a>
-		<a href="#">Features</a>
-		<a href="#">About Us</a>
+		<a class='nav-font' href="#">Updates</a>
+		<a class='nav-font' href="#">Services</a>
+		<a class='nav-font' href="#">Features</a>
+		<a class='nav-font' href="#">About Us</a>
 	</div>
 </header>
 <main>

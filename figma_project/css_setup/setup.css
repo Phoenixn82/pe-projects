@@ -38,5 +38,6 @@ body {
 
 
 h2, p, h1, h3, a {
-
+font-family: 'Inter';
+font-style: normal;
 }

@@ -1,4 +1,4 @@
-<section class='home-menu'>	
+ <section class='home-menu'>	
 		<div class="icon projects">
 			<a class="icon-link" href="?page=projects">
 				<?php include("icons/pre-hover-projects-icon.php"); ?>
