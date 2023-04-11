@@ -1,2 +1,90 @@
 @import"../css_setup/reset.css";
 @import"../css_setup/setup.css";
+@import"hero/hero.css";
+@import"clients/clients.css";
+@import"faq/faq.css";
+@import"feature/feature.css";
+@import"cta/cta.css";
+@import"center_content/center_content.css";
+
+:root {
+  --lightprimaryorigin: #3563E9; 
+  --lightprimarydarker: #2851E3;
+  --darkprimarydarker:  #3261E9;
+  --light/primarya4: #F7F9FE;
+  --systemGrey900: #212121;
+  --systemGrey800: #424242;
+  --systemGrey700: #616161;
+  --systemGrey600: #757575;
+  --systemGrey300: #E0E0E0;
+  --systemGrey50: #FAFAFA;
+}
+
+.innercolumn {
+	max-width: 50vw;
+	margin-right: auto;
+	margin-left: auto;
+}
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 5vh;
+	align-items: center;
+
+}
+
+.header-nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+.nav-font {
+	font-weight: 500;
+	font-size: 14px;
+	color: var(--systemGrey800);
+}
+.home-link {
+	font-weight: 700;
+	font-size: 14px;
+  	color: var(--lightprimaryorigin);
+  	margin-right: 10px;
+
+}
+
+.signup_module {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+}
+
+.lang {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 5px;
+
+}
+
+header button {
+	color: white ;
+	background-color: var(--lightprimaryorigin);
+	border: none;
+	padding: 8px 22px;
+	border-radius: 5px;
+	box-shadow: 0px -1px 1px 0px rgba(0, 0, 0, 0.1) inset;
+
+}
+
+.lang p {
+	font-weight: 700;
+	color: var(--systemGrey700);
+}
+
+button {
+	cursor: pointer;
+}
+
+

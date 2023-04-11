@@ -1,52 +1,46 @@
 @import"../css_setup/reset.css";
 @import"../css_setup/setup.css";
+@import"header/header.css";
 @import"hero/hero.css";
 @import"clients/clients.css";
 @import"faq/faq.css";
 @import"feature/feature.css";
 @import"cta/cta.css";
-@import"center_content/center_content.css";
+@import"footer/footer.css";
+
+
 
 :root {
-  --light/primary/origin: #3563E9; 
-  --light/primary/darker: #2851E3;
-  --dark/primary/darker:  #3261E9;
-  --light/primary/a4: #F7F9FE;
-  --systemGrey/900: #212121;
-  --systemGrey/800: #424242;
-  --systemGrey/700: #616161;
-  --systemGrey/600: #757575;
-  --systemGrey/300: #E0E0E0;
-  --systemGrey/50: #FAFAFA;
-  --
-
+  --lightprimaryorigin: #3563E9; 
+  --lightprimarydarker: #2851E3;
+  --darkprimarydarker:  #3261E9;
+  --light/primarya4: #F7F9FE;
+  --systemGrey900: #212121;
+  --systemGrey800: #424242;
+  --systemGrey700: #616161;
+  --systemGrey600: #757575;
+  --systemGrey300: #E0E0E0;
+  --systemGrey50: #FAFAFA;
 }
 
 
-header {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+h1 {
+font-size: 64px;
+font-weight: 700;
+line-height: 77px;
+letter-spacing: 1.2000000476837158px;
+text-align: center;
+color: var(--systemGrey900);
 }
 
-.header-nav {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	gap: 20px;
+p {
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.2px;
 }
 
-.nav-font {
-	font-weight: 500;
-	font-size: 14px;
+button {
+  cursor: pointer;
 }
-.home-link {
-	font-weight: 700;
-	font-size: 14px;
-}
-
-
-
-
-
-

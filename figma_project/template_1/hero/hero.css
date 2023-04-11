@@ -1,0 +1,8 @@
+.hero {
+	background-image: url(../../svg/background_hero.svg);
+
+}
+
+.hero p {
+	text-align: center;
+}

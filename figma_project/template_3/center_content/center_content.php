@@ -1,1 +1,1 @@
-center_content.php
+<div class="innercolumn">

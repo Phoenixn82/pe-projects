@@ -8,7 +8,12 @@
 
 </head>
 <body>
+	<div class="innercolumn">	
 <header>
+	
+	<div class="logo">
+	<?php include("../svg/logo.php"); ?>
+	</div>
 
 	<div class="header-nav">
 		<a class='home-link' href="#">Home</a>
@@ -17,5 +22,14 @@
 		<a class='nav-font' href="#">Features</a>
 		<a class='nav-font' href="#">About Us</a>
 	</div>
+	<div class="signup_module">
+		<div class="lang">
+		<?php include("../svg/black_world.php"); ?>
+		<p>EN</p>
+		</div>
+		<button>LogIn</button>
+	</div>
 </header>
+	</div>
+
 <main>
