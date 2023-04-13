@@ -1,8 +1,34 @@
 .hero {
 	background-image: url(../../svg/background_hero.svg);
-
+	padding: 5%;
 }
 
 .hero p {
 	text-align: center;
+}
+
+.hero-buttons {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	justify-content: center;
+	padding: 5%;
+}
+
+.gs-button {
+	color: white ;
+	background-color: var(--lightprimaryorigin);
+	border: none;
+	padding: 8px 22px;
+	font-size: 18px;
+
+}
+
+.sft-button {
+	color: var(--lightprimaryorigin);
+	background: #FFFFFF;
+	border: 1px solid #3563E9;
+	padding: 8px 22px;
+	font-size: 18px;
+	
 }

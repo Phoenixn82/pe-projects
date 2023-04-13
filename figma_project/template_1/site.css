@@ -2,10 +2,11 @@
 @import"../css_setup/setup.css";
 @import"header/header.css";
 @import"hero/hero.css";
+@import"center_content/center_content.css";
 @import"clients/clients.css";
-@import"faq/faq.css";
 @import"feature/feature.css";
 @import"cta/cta.css";
+@import"faq/faq.css";
 @import"footer/footer.css";
 
 
@@ -14,7 +15,7 @@
   --lightprimaryorigin: #3563E9; 
   --lightprimarydarker: #2851E3;
   --darkprimarydarker:  #3261E9;
-  --light/primarya4: #F7F9FE;
+  --lightprimarya4: rgba(247, 249, 254, 1);
   --systemGrey900: #212121;
   --systemGrey800: #424242;
   --systemGrey700: #616161;
@@ -33,6 +34,13 @@ text-align: center;
 color: var(--systemGrey900);
 }
 
+ h3 {
+  color: var(--systemGrey900);
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+}
+
 p {
 font-weight: 400;
 font-size: 20px;
@@ -44,3 +52,4 @@ letter-spacing: 0.2px;
 button {
   cursor: pointer;
 }
+

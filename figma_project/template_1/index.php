@@ -5,4 +5,6 @@
 <?php include("clients/clients.php"); ?>
 <?php include("cta/cta.php"); ?>
 <?php include("faq/faq.php"); ?>
-<?php include("footer/footer.php"); ?>
+<?php include("footer/footer.php"); ?> 
+
+

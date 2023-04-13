@@ -24,7 +24,7 @@
 	</div>
 	<div class="signup-module">
 		<div class="lang">
-		<?php include("../svg/black_world.php"); ?>
+		<img src="../svg/black_world.svg">
 		<p>EN</p>
 		</div>
 		<button>LogIn</button>

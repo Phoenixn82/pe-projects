@@ -1,0 +1,64 @@
+.clients {
+	display: flex;
+	flex-direction: column;
+	padding: 5%;
+	gap: 100px;
+
+}
+
+.c-module p {
+	color: var(--systemGrey600);
+	font-size: 20px;
+
+}
+
+.c-module h3 {
+	color: var(--systemGrey900);
+	font-size: 48px;
+	line-height: 68px;
+	font-weight: 600;
+}
+
+.c-module {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	justify-content: center;
+	text-align: center;
+}
+
+.client-feedback-module {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+
+}
+
+.client-feedback-component {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap:  20px;
+}
+
+.client-feedback-module p {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 32px;
+	color: var(-- systemGrey800);
+}
+
+.name {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	color: var(--systemGrey600);
+}
+
+.person {
+	width: 50px;
+}
+
+.stars {
+	width: 200px;
+}
