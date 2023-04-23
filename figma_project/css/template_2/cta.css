@@ -1,0 +1,19 @@
+body.template_two .cta inner-column {
+	padding: 5% 0%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: var(--lightprimarya4);
+	gap: 40px;
+	text-align: center;
+	border-radius: 15px;
+
+}
+
+body.template_two .cta-words {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	text-align: center;
+}
+

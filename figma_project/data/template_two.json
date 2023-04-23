@@ -1,0 +1,128 @@
+{
+	"name": "Template 2",
+	"sections": [
+		{
+			"name": "masthead",
+			"module": "masthead",
+			"content":
+			{
+				"logo": "images/svg/logo_white.svg",
+				"actions": [
+					{
+						"type": "link",
+						"text": "Home",
+						"url": "#"
+					},
+					{
+						"type": "link",
+						"text": "Updates",
+						"url": "#"
+					},
+					{
+						"type": "link",
+						"text": "Services",
+						"url": "#"
+					},
+					{
+						"type": "link",
+						"text": "Features",
+						"url": "#"
+					},
+					{
+						"type": "link",
+						"text": "About Us",
+						"url": "#"
+					},
+					{
+						"type": "button",
+						"class": "white-button",
+						"text": "LogIn",
+						"url": "#"
+					}
+				],
+				"language_icon": "images/svg/white_world.svg"
+			}
+		},
+		{
+			"name": "hero",
+			"module": "hero",
+			"content":
+			{
+				"heading": "Arcu Suscipit Massa Aliquam Proin Amet",
+				"subheading": "Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor suspendisse luctus amet bibendum pellentesque lorem. Malesuada lobortis tristique tortor,",
+				"actions": [
+					{
+						"type": "link",
+						"text": "Get Started",
+						"url": "https//..."
+					}
+				]
+			}
+		},
+		{
+			"name": "center_content",
+			"module": "center_content",
+			"content":
+			{}
+		},
+		{
+			"name": "feature",
+			"module": "feature",
+			"content":
+			{}
+		},
+		{
+			"name": "clients",
+			"module": "clients",
+			"content":
+			{}
+		},
+		{
+			"name": "cta",
+			"module": "cta",
+			"content":
+			{}
+		},
+		{
+			"name": "faq",
+			"module": "faq",
+			"content":
+			{}
+		},
+		{
+			"name": "bottom",
+			"module": "bottom",
+			"content":
+			{
+				"product_links": [
+					"Link 1",
+					"Link 2",
+					"Link 3",
+					"Link 4",
+					"Link 5"
+
+				],
+				"info_links": [
+					"Link 1",
+					"Link 2",
+					"Link 3"
+				],
+				"company_links": [
+					"Link 1",
+					"Link 2",
+					"Link 3"
+				],
+				"email_body": "Subscribe to our newsletter",
+				"logo": "images/svg/logo.svg",
+				"legal_links": [
+					"Link 1",
+					"Link 2",
+					"Link 3"
+				],
+				"linkedin": "images/svg/linkdin.svg",
+				"facebook": "images/svg/fb.svg",
+				"vine": "images/svg/vine.svg"
+			}
+		}
+	]
+}

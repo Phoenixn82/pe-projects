@@ -1,0 +1,79 @@
+:root {
+  --lightprimaryorigin: #3563E9; 
+  --lightprimarydarker: #2851E3;
+  --darkprimarydarker:  #3261E9;
+  --lightprimarya4: rgba(247, 249, 254, 1);
+  --systemGrey900: #212121;
+  --systemGrey800: #424242;
+  --systemGrey700: #616161;
+  --systemGrey600: #757575;
+  --systemGrey300: #E0E0E0;
+  --systemGrey50: #FAFAFA;
+  --black: black;
+  --white: white;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    letter-spacing: 1.2px;
+    color: var(--systemGrey900);
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 68px;
+    color: var(--systemGrey900);
+}
+
+ h3 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    color: var(--systemGrey900);
+
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: var(--systemGrey900);
+
+}
+
+h5 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--black);
+}
+
+p.subtitle {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: var(--systemGrey600);
+
+}
+
+.blue-button {
+    color: white ;
+    background-color: var(--lightprimaryorigin);
+    border: none;
+    padding: 8px 22px;
+
+}
+
+
+
+.white-button {
+    color: var(--lightprimaryorigin);
+    background: #FFFFFF;
+    border: 1px solid #3563E9;
+    padding: 8px 22px;
+    
+}

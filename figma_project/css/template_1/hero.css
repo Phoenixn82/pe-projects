@@ -1,0 +1,40 @@
+body.template_one .hero inner-column{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 100px 0px;
+}
+
+body.template_one .hero {
+		background-image: url(../images/svg/background_hero.svg);
+}
+
+
+body.template_one .hero p, .hero h1 {
+	text-align: center;
+}
+
+body.template_one .hero-buttons {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	justify-content: center;
+	padding: 2%;
+
+}
+
+body.template_one .gs-button {
+	color: white ;
+	background-color: var(--lightprimaryorigin);
+	border: none;
+	padding: 8px 22px;
+
+}
+
+body.template_one .hero p {
+	color: var(--systemGrey800);
+}
+
+
+/*Template 2*//*Template 2*//*Template 2*/
+

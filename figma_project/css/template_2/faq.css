@@ -1,0 +1,100 @@
+
+body.template_two .faq-title {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	text-align: center;
+}
+body.template_two .faq-title .subtitle {
+ max-width: 60ch;
+}
+
+body.template_two .faq inner-column {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 40px;
+}
+
+
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.15);
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+
+/* Style the collapsible content. Note: hidden by default */
+body.template_two .content {
+  background-color: white;
+  max-height: 0;
+  color: var(--systemGrey600);
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+body.template_two .content p {
+	font-size: 16px;
+	margin: 20px;
+  text-align: left;
+
+}
+
+.collapsible:after {
+  content: '>'; 
+  font-size: 18px;
+  color: var(--systemGrey600);
+  float: right;
+  margin-left: 5px;
+  
+
+}
+
+.active:after {
+  content: "^"; 
+
+}
+
+/*Template three*//*Template three*//*Template three*/
+
+body.template_three .faq-title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+body.template_three .faq-title .subtitle {
+ max-width: 60ch;
+}
+
+body.template_three .faq inner-column {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+}
+
+body.template_three .content {
+  background-color: white;
+  max-height: 0;
+  color: var(--systemGrey600);
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+body.template_three .content p {
+  font-size: 16px;
+  margin: 20px;
+  text-align: left;
+
+}

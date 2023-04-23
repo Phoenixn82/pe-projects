@@ -1,0 +1,99 @@
+.footer {
+	background-color: var(--lightprimaryorigin);
+
+}
+
+.footer .inner-column {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: 50px;
+}
+
+.footer-categories {
+	display: flex;
+	flex-direction: row;
+	gap: 30px;
+}
+
+.footer-category {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap: 15px;
+
+}
+
+.footer ul {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.email-input {
+	border: 1px solid #D6D6D6;
+	border-radius: 6px 0px 0px 6px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+    padding: 11px 5px;
+	font-size: 14px;
+}
+
+.footer-email {
+	display: flex;
+	background-color: var(--lightprimarydarker) ;
+	flex-direction: column;
+	align-items: flex-start;
+	max-width: 300px;
+	max-height: 300px;
+	gap: 10px;
+	padding: 5%;
+}
+
+.email-button {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border: none;
+	color: white;
+	opacity: 0.6;
+	align-items: center;
+	padding: 13px;
+	background-color: var(--lightprimaryorigin);
+	border-radius: 0px 6px 6px 0px;
+}
+
+.email-signup {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+
+}
+.footer-top {
+	display: flex;
+	border-bottom: 1px solid rgba(255,255,255, 0.6);
+	gap: 50px;
+	flex-wrap: wrap;
+	padding-bottom: 50px;
+
+}
+
+.footer-bottom {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-grow: 1;
+	align-items: center;
+
+}
+
+.socials ul, .footer-legal ul{
+	display: flex;
+	flex-direction: row;
+}
+
+.footer-logo {
+	max-width: 200px;
+}
+

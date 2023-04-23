@@ -1,0 +1,140 @@
+{
+	"name": "Template 3",
+	"sections": [
+		{
+			"name": "masthead",
+			"module": "masthead",
+			"content":
+			{
+				"logo": "images/svg/logo.svg",
+				"actions": [
+					{
+						"type": "link",
+						"text": "Home",
+						"url": "#"
+					},
+					{
+						"type": "link",
+						"text": "Updates",
+						"url": "#"
+					},
+					{
+						"type": "link",
+						"text": "Services",
+						"url": "#"
+					},
+					{
+						"type": "link",
+						"text": "Features",
+						"url": "#"
+					},
+					{
+						"type": "link",
+						"text": "About Us",
+						"url": "#"
+					},
+					{
+						"type": "button",
+						"class": "blue-button",
+						"text": "LogIn",
+						"url": "#"
+					}
+				],
+				"language_icon": "images/svg/black_world.svg"
+			}
+		},
+		{
+			"name": "hero",
+			"module": "hero",
+			"content":
+			{}
+		},
+		{
+			"name": "center_content",
+			"module": "center_content",
+			"content":
+			{}
+		},
+		{
+			"name": "feature",
+			"module": "feature",
+			"content":
+			{}
+		},
+				{
+			"name": "clients",
+			"module": "clients",
+			"content":
+			{}
+		},
+		{
+			"name": "cta",
+			"module": "cta",
+			"content":
+			{}
+		},
+		{
+			"name": "faq",
+			"module": "faq",
+			"content":
+			{
+				"heading": "Frequent ask qustions",
+				"subtitle": "Pellentesque cras adipiscing tempus libero vel nullam mauris tellus. Aliquam ultrices tellus consequat amet, lectus aliquam est in neque.",
+				"questions": [
+					{
+						"question": "How soon will my order ship?",
+						"answer": "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa."
+					},
+					{
+						"question": "Is there any warranty exclusions?",
+						"answer": "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa."
+					},
+					{
+						"question": "Are there any return exclusions?",
+						"answer": "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa."
+					},
+					{
+						"question": "Will I be charged for a replacement item?",
+						"answer": "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa."
+					},
+					{
+						"question": "How can I track my orders & payment?",
+						"answer": "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa."
+					}
+				]
+			}
+		},
+		{
+			"name": "bottom",
+			"module": "bottom",
+			"content":
+			{
+				"product_links": [
+					"Link 1",
+					"Link 2",
+					"Link 3"
+				],
+				"info_links": [
+					"Link 1",
+					"Link 2",
+					"Link 3"
+				],
+				"company_links": [
+					"Link 1",
+					"Link 2",
+					"Link 3"
+				],
+				"email_body": "Subscribe to our newsletter",
+				"logo": "images/svg/logo_white.svg",
+				"legal_links": [
+					"Link 1",
+					"Link 2",
+					"Link 3"
+				],
+				"linkedin": "images/svg/linkdin_white.svg",
+				"facebook": "images/svg/fb_white.svg",
+				"vine": "images/svg/vine_white.svg"
+			}
+		}
+	]
+}
