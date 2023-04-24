@@ -1,12 +1,14 @@
-@media(min-width: 1000px) {
-	.center-content, .clients, .cta, .faq, .feature, .footer {
-  padding:  5% 0%;
-}
-}
-
-/*template one*//*template one*//*template one*/
 
 /*masthead*//*masthead*//*masthead*/
+
+@media(min-width: 700px) { 
+  .masthead inner-column {
+       display: flex;
+   flex-direction: row;
+   justify-content: space-between;  
+   }
+}
+
 
 @media(max-width: 700px) {
    .masthead inner-column {
@@ -64,15 +66,15 @@
 
 /*feature*//*feature*//*feature*/
 
-@media(min-width: 800px) {
-	 body.template_one .feature inner-column {
-		flex-direction: row;
-		
-	}
 
-	 body.template_one .feature-pic {
-		padding: 0%;
-		max-width: 500px;
-	}
-}
+/*feature_2*//*feature_2*//*feature_2*/ 
+
+
+
+
+
+
+
+
+
 

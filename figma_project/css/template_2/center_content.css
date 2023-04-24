@@ -1,9 +1,27 @@
-body.template_two .cc-title {
-	display: flex;
-	flex-direction: column;
-	gap: 20px;
-	justify-content: center;
-	text-align: center;
-	margin-bottom: 5%;
+body.template_two .center-content_2 inner-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
 }
 
+body.template_two .cc-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body.template_two .cloud-img {
+  max-width: 100px;
+  margin-bottom: 40px;
+}
+
+body.template_two .cc-title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 5%;
+}

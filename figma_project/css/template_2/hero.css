@@ -2,17 +2,22 @@ body.template_two .hero inner-column{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 100px 0px;
+	padding: 10% 0px;
 }
 
 body.template_two .hero {
-		background-image: url(../images/svg/background_hero.svg);
+		background-image: url(../../images/svg/background_hero.svg);
 }
 
 
 body.template_two .hero p, .hero h1 {
 	text-align: center;
 }
+
+body.template_two .hero h1 {
+	font-size: 56px;
+}
+
 
 body.template_two .hero-buttons {
 	display: flex;
@@ -23,18 +28,6 @@ body.template_two .hero-buttons {
 
 }
 
-body.template_two .gs-button {
-	color: white ;
-	background-color: var(--lightprimaryorigin);
-	border: none;
-	padding: 8px 22px;
-
-}
-
 body.template_two .hero p {
 	color: var(--systemGrey800);
 }
-
-
-/*Template 2*//*Template 2*//*Template 2*/
-

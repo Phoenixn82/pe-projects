@@ -2,39 +2,57 @@ body.template_three .hero inner-column{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 100px 0px;
+	padding: 10% 0px;
+	gap: 40px;
 }
 
 body.template_three .hero {
-		background-image: url(../images/svg/background_hero.svg);
+		background-color: var(--lightprimaryorigin);
 }
 
 
-body.template_three .hero p, .hero h1 {
+body.template_three .hero-type h1 {
 	text-align: center;
+	color: var(--white);	
+	max-width: 25ch;
 }
 
-body.template_three .hero-buttons {
+body.template_three .hero-type {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	gap: 20px;
-	justify-content: center;
-	padding: 2%;
-
-}
-
-body.template_three .gs-button {
-	color: white ;
-	background-color: var(--lightprimaryorigin);
-	border: none;
-	padding: 8px 22px;
-
 }
 
 body.template_three .hero p {
-	color: var(--systemGrey800);
+	text-align: center;
+color: var(--white);	
 }
 
 
-/*Template 2*//*Template 2*//*Template 2*/
+body.template_three .hero .email-signup {
+  display: flex;
+  justify-content: center; /* optional: center the input and button horizontally */
+  align-items: center; /* optional: center the input and button vertically */
+  gap: 10px;
+  width: 50%;
+}
+body.template_three .hero-email-input {
+	border: none;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+    padding: 10px 20px 10px 20px;
+	font-size: 14px;
+	background-color: var(--lightprimarydarker);
+	width: 60%;
+}
 
+body.template_three .hero .white-button {
+	padding: 10px 20px;
+	border-radius: 5px;
+
+}
+body.template_three .hero input[type=text]::placeholder {
+    color: var(--systemGrey300);
+}

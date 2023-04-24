@@ -1,12 +1,12 @@
 body.template_three .cta inner-column {
 	padding: 5% 0%;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: center;
-	background-color: var(--lightprimarya4);
-	gap: 40px;
+    gap: 40px;
 	text-align: center;
 	border-radius: 15px;
+	justify-content: space-between;
 
 }
 
@@ -17,3 +17,37 @@ body.template_three .cta-words {
 	text-align: center;
 }
 
+body.template_three .cta-l {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	text-align: center;
+	align-items: center;
+	max-width: 60ch;
+}
+
+body.template_three .cta .email-signup {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center; /* optional: center the input and button horizontally */
+  align-items: center; /* optional: center the input and button vertically */
+  gap: 20px;
+  width: 100%;
+}
+body.template_three .cta-email-input {
+	border: 1px solid var(--systemGrey500);
+	border-radius: 5px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+    padding: 7px 5px;
+	font-size: 14px;
+    color: var(--systemGrey400);
+    opacity: 0.6;
+  	width: 100%;
+
+}
+
+body.template_three .cta .blue-button {
+	border-radius: 5px;
+}

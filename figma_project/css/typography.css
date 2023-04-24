@@ -3,10 +3,12 @@
   --lightprimarydarker: #2851E3;
   --darkprimarydarker:  #3261E9;
   --lightprimarya4: rgba(247, 249, 254, 1);
+  --lightprimarya8: #EFF3FD;
   --systemGrey900: #212121;
   --systemGrey800: #424242;
   --systemGrey700: #616161;
   --systemGrey600: #757575;
+  --systemGrey500: #9E9E9E;
   --systemGrey300: #E0E0E0;
   --systemGrey50: #FAFAFA;
   --black: black;
@@ -76,4 +78,13 @@ p.subtitle {
     border: 1px solid #3563E9;
     padding: 8px 22px;
     
+}
+
+.blue-link {
+    display: flex;
+   justify-content: center;
+    color: var(--lightprimaryorigin);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
 }

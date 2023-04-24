@@ -1,7 +1,6 @@
 <section class="feature">
 	<div class="inner-column">
 
-		<div class="feature-title">
 			<h3>Etiam nulla lectus molestie at vulputate.</h3>
 			<p class="subtitle">Etiam nulla lectus molestie at vulputate.</p>
 		</div>

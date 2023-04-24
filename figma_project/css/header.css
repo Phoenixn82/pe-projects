@@ -1,0 +1,29 @@
+header inner-column ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+header li button {
+	padding: 10px 80px;
+	margin: 20px 0px;
+}
+
+.template-one-button {
+	background-image: url(../images/svg/background_hero.svg);
+	border: 2px solid var(--lightprimaryorigin);
+	color: var(--lightprimaryorigin);
+
+}
+
+.template-two-button {
+	background-color: var(--white);
+	border: 2px solid var(--lightprimaryorigin);
+	color: var(--lightprimarydarker);
+}
+
+.template-three-button {
+	background-color: var(--lightprimarydarker);
+	border: none;
+	color: var(--white);
+}

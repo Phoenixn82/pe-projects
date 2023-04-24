@@ -3,7 +3,9 @@
 @import"phone-size.css";
 @import"typography.css";
 
-@import"template_1/mast_head.css";
+@import"header.css";
+
+@import"template_1/masthead.css";
 @import"template_1/hero.css";
 @import"template_1/center_content.css";
 @import"template_1/clients.css";
@@ -12,7 +14,7 @@
 @import"template_1/faq.css";
 @import"template_1/footer.css";
 
-@import"template_2/mast_head.css";
+@import"template_2/masthead.css";
 @import"template_2/hero.css";
 @import"template_2/center_content.css";
 @import"template_2/clients.css";
@@ -21,7 +23,7 @@
 @import"template_2/faq.css";
 @import"template_2/footer.css";
 
-@import"template_3/mast_head.css";
+@import"template_3/masthead.css";
 @import"template_3/hero.css";
 @import"template_3/center_content.css";
 @import"template_3/clients.css";
@@ -32,32 +34,16 @@
 
 
 
-
-:root {
-  --lightprimaryorigin: #3563E9; 
-  --lightprimarydarker: #2851E3;
-  --darkprimarydarker:  #3261E9;
-  --lightprimarya4: rgba(247, 249, 254, 1);
-  --lightprimarya8: #EFF3FD;
-
-  --systemGrey900: #212121;
-  --systemGrey800: #424242;
-  --systemGrey700: #616161;
-  --systemGrey600: #757575;
-  --systemGrey300: #E0E0E0;
-  --systemGrey50: #FAFAFA;
-  --black: black;
-}
-
-
-
 button {
   cursor: pointer;
 }
 
-.center-content, .clients, .cta, .faq, .feature, .bottom {
-  padding:  5% 0%;
+
+
+.center_content, .clients, .cta, .faq, .feature, .bottom {
+  padding:  6% 0%;
 }
+
 
 inner-column {
   display: block;

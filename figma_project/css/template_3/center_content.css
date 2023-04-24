@@ -7,3 +7,34 @@ body.template_three .cc-title {
 	margin-bottom: 5%;
 }
 
+body.template_three .content-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+  grid-gap: 10px; /* Gap between grid items */
+}
+
+body.template_three .center_content inner-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 50px;
+}
+
+body.template_three .content-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  padding: 10px; /* Padding for grid items */
+  gap: 10px;
+}
+
+body.template_three .cc-body {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--systemGrey700);  
+  text-align: center;
+
+}

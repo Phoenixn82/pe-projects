@@ -3,7 +3,7 @@
 	"sections": [
 		{
 			"name": "masthead",
-			"module": "masthead",
+			"module": "masthead_3",
 			"content":
 			{
 				"logo": "images/svg/logo.svg",
@@ -35,47 +35,132 @@
 					},
 					{
 						"type": "button",
+						"class": "white-button",
+						"text": "SignUp",
+						"url": "#"
+					},
+					{
+						"type": "button",
 						"class": "blue-button",
 						"text": "LogIn",
 						"url": "#"
 					}
-				],
-				"language_icon": "images/svg/black_world.svg"
+				]
 			}
 		},
 		{
 			"name": "hero",
-			"module": "hero",
+			"module": "hero_3",
 			"content":
-			{}
+			{
+				"heading": "Arcu Suscipit Massa Aliquam Proin Amet",
+				"subheading": "Luctus felis sit lectus tristique diam ornare bibendum. Arcu auctor suspendisse luctus amet bibendum pellentesque lorem. Malesuada lobortis tristique tortor,",
+				"actions": [
+					{
+						"type": "input",
+						"class": "hero-email-input",
+						"text": "Email Address"
+					},
+					{
+						"type": "button",
+						"class": "white-button",
+						"text": "SignUp"
+					}
+				]
+			}
 		},
 		{
 			"name": "center_content",
-			"module": "center_content",
+			"module": "center_content_3",
 			"content":
-			{}
+			{
+				"top_subtitle": "Rhoncus, accumsan dictum",
+				"heading": "Etiam nulla lectus molestie at vulputate.",
+				"info": [
+					{
+						"title": "Nibh mattis gravida",
+						"body": "A tristique facilisi gravida at felis. Sed ornare arcu, tortor hendrerit etiam vulputate libero tellus. Etiam nu"
+					},
+					{
+						"title": "Nisl, in consectetur",
+						"body": "A tristique facilisi gravida at felis. Sed ornare arcu, tortor hendrerit etiam vulputate libero tellus. Etiam nu"
+					},
+					{
+						"title": "Aenean condimentum ",
+						"body": "A tristique facilisi gravida at felis. Sed ornare arcu, tortor hendrerit etiam vulputate libero tellus. Etiam nu"
+					}
+				],
+				"actions": [
+					{
+						"type": "link",
+						"text": "See All",
+						"class": "blue-link",
+						"url": "#"
+					}
+				]
+			}
 		},
 		{
 			"name": "feature",
-			"module": "feature",
+			"module": "feature_3",
 			"content":
-			{}
-		},
-				{
-			"name": "clients",
-			"module": "clients",
-			"content":
-			{}
+			{
+				"top_subtitle": "Rhoncus, accumsan dictum",
+				"heading": "Etiam nulla lectus molestie at vulputate.",
+				"bottom_subtitle": "Neque, pulvinar vestibulum non aliquam.",
+				"features": [
+					{
+						"icon": "images/svg/upload_cloud.svg",
+						"title": "Sit quam gravida",
+						"body": "Et hendrerit turpis habitant cursus semper ultrices in nunc. Erat eget etiam senectus vestibulum risus."
+					},
+					{
+						"icon": "images/svg/watch.svg",
+						"title": "Elementum enim tempus",
+						"body": "At tristique elementum metus blandit id sed vel eu a. Diam sed feugiat diam nisi est. Dictumst elit."
+					},
+					{
+						"icon": "images/svg/yt.svg",
+						"title": "Tempor egestas augue",
+						"body": "Eu metus, at orci dui sapien. Semper fames est ut gravida. Neque pellentesque risus ut odio."
+					},
+					{
+						"icon": "images/svg/thermometer.svg",
+						"title": "Nulla ac lacinia",
+						"body": "Molestie faucibus amet sed ut gravida iaculis sed venenatis. Pulvinar id lacus condimentum ut. Non."
+					},
+					{
+						"icon": "images/svg/wind.svg",
+						"title": "Velit nibh a",
+						"body": "Ac morbi integer orci justo lobortis elementum, massa pulvinar quisque. Porttitor sit convallis quis."
+					},
+					{
+						"icon": "images/svg/zoom.svg",
+						"title": "Velit nibh a",
+						"body": "Ac morbi integer orci justo lobortis elementum, massa pulvinar quisque. Porttitor sit convallis quis."
+					}
+				]
+			}
 		},
 		{
-			"name": "cta",
-			"module": "cta",
+			"name": "clients",
+			"module": "clients_3",
 			"content":
-			{}
+			{
+				"heading": "what our clients says",
+				"subtitle": "Neque, pulvinar vestibulum non aliquam.",
+				"feedback":
+				{
+					"quote": "“Pellentesque maecenas vitae vehicula eget. Ultricies ac id massa maecenas nulla arcu lacus. Turpis porttitor.”",
+					"client_name": "Courtney Henry -",
+					"client_role": "Marketing Coordinator"
+				},
+				"image": "images/png/landscape.png"
+			}
 		},
 		{
 			"name": "faq",
-			"module": "faq",
+			"module": "faq_3",
 			"content":
 			{
 				"heading": "Frequent ask qustions",
@@ -100,6 +185,28 @@
 					{
 						"question": "How can I track my orders & payment?",
 						"answer": "Elementum ullamcorper felis nulla scelerisque. Nunc enim nunc mattis leo massa."
+					}
+				]
+			}
+		},
+		{
+			"name": "cta",
+			"module": "cta_3",
+			"content":
+			{
+				"heading": "Etiam nulla lectus amet nunc ",
+				"subtitle": "Fringilla non proin nec in in lorem amet eget ac. Mauris.",
+				"image": "images/png/landscape.png",
+				"actions": [
+					{
+						"type": "input",
+						"class": "cta-email-input",
+						"text": "Email Address"
+					},
+					{
+						"type": "button",
+						"class": "blue-button",
+						"text": "SignUp"
 					}
 				]
 			}

@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Template 1</title>
+	<title>Figma Challenge</title>
 	<link rel="stylesheet" href="css/site.css">
 
 </head>
@@ -12,9 +12,9 @@
 		<inner-column>
 			<nav>
 				<ul>
-					<li><a href="?page=template_one">Template 1</a></li>
-					<li><a href="?page=template_two">Template 2</a></li>
-					<li><a href="?page=template_three">Template 3</a></li>
+					<li><button class="template-one-button" onclick="window.location.href='?page=template_one'">Template 1</button></li>
+					<li><button class="template-two-button" onclick="window.location.href='?page=template_two'">Template 2</button></li>
+					<li><button class="template-three-button" onclick="window.location.href='?page=template_three'">Template 3</button></li>
 
 				</ul>
 			</nav>

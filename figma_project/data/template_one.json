@@ -53,11 +53,13 @@
 				"actions": [
 					{
 						"type": "button",
+						"class": "blue-button",
 						"text": "Get Started",
 						"url": "#"
 					},
 					{
 						"type": "button",
+						"class": "white-button",
 						"text": "Start Free Trial",
 						"url": "#"
 					}
@@ -142,7 +144,14 @@
 			{
 				"subtitle": "Rhoncus, accumsan dictum",
 				"heading": "Etiam nulla lectus amet nunc molestie at vulputate.",
-				"button_text": "Get Free Quotes >"
+				"actions": [
+					{
+						"type": "button",
+						"text": "Get Free Quotes >",
+						"class": "blue-button",
+						"url": "#"
+					}
+				]
 			}
 		},
 		{

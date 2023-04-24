@@ -1,25 +1,24 @@
-
 body.template_two .faq-title {
-	display: flex;
-	flex-direction: column;
-	gap: 20px;
-	text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
 }
 body.template_two .faq-title .subtitle {
  max-width: 60ch;
 }
 
 body.template_two .faq inner-column {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	gap: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
 }
 
 
 
 /* Style the button that is used to open and close the collapsible content */
-.collapsible {
+body.template_two .collapsible {
   background-color: white;
   cursor: pointer;
   padding: 18px;
@@ -44,57 +43,28 @@ body.template_two .content {
 }
 
 body.template_two .content p {
-	font-size: 16px;
-	margin: 20px;
+  font-size: 16px;
+  margin: 20px;
   text-align: left;
+  border-left: 2px solid var(--lightprimaryorigin);
+  padding-left: 6px;
+
 
 }
 
-.collapsible:after {
-  content: '>'; 
+body.template_two .collapsible:after {
+  content: '+'; 
   font-size: 18px;
-  color: var(--systemGrey600);
+  color: var(--lightprimaryorigin);
   float: right;
   margin-left: 5px;
+  
   
 
 }
 
-.active:after {
-  content: "^"; 
-
-}
-
-/*Template three*//*Template three*//*Template three*/
-
-body.template_three .faq-title {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  text-align: center;
-}
-body.template_three .faq-title .subtitle {
- max-width: 60ch;
-}
-
-body.template_three .faq inner-column {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 40px;
-}
-
-body.template_three .content {
-  background-color: white;
-  max-height: 0;
-  color: var(--systemGrey600);
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-}
-
-body.template_three .content p {
-  font-size: 16px;
-  margin: 20px;
-  text-align: left;
+body.template_two .active:after {
+  content: "-"; 
+  
 
 }

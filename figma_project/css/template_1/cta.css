@@ -17,3 +17,10 @@ body.template_one .cta-words {
 	text-align: center;
 }
 
+body.template_two .cta-buttons {
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+	gap: 20px;
+}
+
