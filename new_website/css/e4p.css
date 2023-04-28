@@ -1,0 +1,98 @@
+.e4p-body {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.form h1,
+button,
+label,
+.output {
+  font-family: "helvetica";
+  font-weight: 100;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.form-parent {
+  margin: 0px auto 5vh auto;
+  border: 2px solid white;
+  padding: 1rem 1rem;
+  width: 20vw;
+}
+
+input {
+  background-color: #151619;
+  border: 2px solid white;
+  margin-bottom: 6vh;
+  caret-color: white;
+  outline: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+}
+
+input[data-autocompleted] {
+  background-color: transparent !important;
+}
+
+h1 {
+  margin: 0px;
+  padding: 0.5rem;
+  border: 1px solid white;
+  font-size: clamp(5px, 2vw, 30px);
+}
+
+label {
+  text-align: center;
+  padding: 3vh 0px 0.2rem 0px;
+  font-size: clamp(5px, 2vw, 18px);
+}
+
+input[type="text"],
+input[type="number"] {
+  color: white;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  outline: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+button {
+  background-color: #151619;
+  border: 2px solid white;
+  padding: 0.5rem 5vw;
+  text-align: center;
+  text-decoration: none;
+  font-size: clamp(5px, 3vw, 25px);
+  color: white;
+  cursor: pointer;
+}
+
+.radio {
+  text-align: center;
+}
+
+.output {
+  margin-bottom: 3vh;
+}

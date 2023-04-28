@@ -1,0 +1,269 @@
+/* Setup */ /* Setup */ /* Setup */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+p a {
+  display: inline;
+  color: blue;
+  text-decoration: underline;
+}
+
+picture {
+  display: block;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 40vh;
+}
+
+svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.inner-column {
+  min-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  /*   border: 2px solid red; */
+}
+
+.header-icon {
+  position: relative;
+}
+
+body {
+  background-color: #151619;
+  color: white;
+}
+
+h2,
+p,
+h1,
+h3,
+a {
+  font-family: "helvetica";
+  font-weight: 200;
+}
+
+header {
+  margin: 0px 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.hidden {
+  display: none;
+}
+/* top */ /* top */ /* top */ /* top */ /* top */
+.eltitle {
+  display: flex;
+  min-width: 80%;
+  border: 1px solid white;
+  padding: 1rem;
+  margin: 1rem 0px;
+  justify-content: center;
+}
+
+.eltitle h1 {
+  font-size: clamp(30px, 5vw, 60px);
+}
+
+/* setup form */ /* setup form */ /* setup form */ /* setup form */
+#setup-form {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+#setup-form input {
+  margin-right: 3%;
+}
+
+input[type="radio"] {
+  /* Add if not using autoprefixer */
+  appearance: none;
+  /* For iOS < 15 */
+  background-color: var(--form-background);
+  /* Not removed via appearance */
+  margin: 0;
+
+  font: inherit;
+  color: currentColor;
+  width: 1em;
+  height: 1em;
+  border: 0.1rem solid currentColor;
+  border-radius: 50%;
+  transform: translateY(-0.075em);
+
+  display: grid;
+  place-content: center;
+}
+/* length of program */ /* length of program */ /* length of program */
+input#lop {
+  margin: 1rem 0 0.5rem 0;
+  height: 1.1rem;
+  width: 2rem;
+  box-sizing: border-box;
+  border: 1px solid white;
+  background-color: #151619;
+  caret-color: white;
+  outline: none;
+  color: white;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.h-line {
+  border-bottom: 0.1rem solid white;
+}
+/* edit *//* edit *//* edit *//* edit */
+#edit {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+/* plus button *//* plus button *//* plus button */
+#plus-svg-button {
+  margin-top: 2vh;
+  padding: 0;
+  cursor: pointer;
+}
+#plus-svg {
+  background-color: #151619;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  max-height: 3vh;
+}
+/* submit-button *//* submit-button *//* submit-button */
+.submit-button {
+  background-color: #151619;
+  text-align: center;
+  margin-top: 2vh;
+  border: 1px solid white;
+  min-height: 5vh;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+
+/* edit table *//* edit table *//* edit table */
+
+table {
+  border-collapse: seperate;
+  width: 100%;
+}
+
+.table-header{
+  display: none;
+}
+
+#edit-table {
+  border: 2px solid white;
+  padding: 1vh;
+  width: 100%;
+  margin-top: 1vh;
+}
+
+tbody {
+  max-height: 1.1rem;
+  width: 100%;
+  
+}
+
+.remove-row-cell {
+  align-items: center;
+  border: none;
+  
+  padding: 0;
+}
+
+.remove-row {
+  padding: 0;
+  border: none;
+  
+}
+
+.remove-row-svg {
+  fill: #fff;
+  cursor: pointer;
+  max-height: 3vh;
+}
+
+.field-header {
+  box-sizing: border-box;
+  text-align: left;
+  background-color: #151619;
+  caret-color: white;
+  outline: none;
+  color: white;
+}
+
+td:not(.remove-row-cell) {
+  border: 1px solid white;
+  background-color: #151619;
+  caret-color: white;
+  outline: none;
+  color: white;
+}
+
+#add-row {
+  width: 100%;
+  padding: 0;
+  margin-top: 1vh;
+  cursor: pointer;
+}
+
+#plus-svg {
+  background-color: #151619;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  max-height: 3vh;
+}

@@ -1,5 +1,5 @@
  
-<?php include("header.php"); ?>
+<?php include("partials/header.php"); ?>
 
 <?php 
 
@@ -9,26 +9,21 @@
 		$page = $_GET['page'];
 	}
 
-	if ($page == "home") {
-		include("home/home.php");
-	}
+	if (file_exists("pages/$page.php")) {
+		include("pages/$page.php");
 
-	if ($page == "resume") {
-		include("resume/resume.php");
-	}
-
-	if ($page == "socials") {
-		include("socials/socials.php");
-	}
-
-	if ($page == "projects") {
-		include("projects/projects.php");
 	}
 
 	if ($page == "e4p") {
-		include("e4p/e4p_home.php");
+		include("projects/e4p/e4p_home.php");
 	}
+
+	if ($page == "figma") {
+		include("projects/figma_project/index.php");
+
+	}
+
 
  ?>
 
-<?php include("footer.php"); ?>
+<?php include("partials/footer.php"); ?>
