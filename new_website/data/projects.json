@@ -1,10 +1,13 @@
 [
 	{
 		"id": "figma",
-		"title": "Figma"
+		"title": "Figma",
+		"link": "live/figma_project"
 	},
 	{
 		"id": "e4p",
-		"title": "Exercises For Programmers"
+		"title": "Exercises For Programmers",
+		"link": "?page=e4p"
+
 	}
 ]

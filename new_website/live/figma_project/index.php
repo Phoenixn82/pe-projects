@@ -1,7 +1,7 @@
 <?php 
 
 	$page = "template_one";
-	if ($_GET['page']) {
+	if (isset($_GET['page']) ) {
 		$page = $_GET['page'];
 	}
 

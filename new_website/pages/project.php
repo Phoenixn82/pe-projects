@@ -27,3 +27,5 @@
  ?>
 
 <h1><?=$current_project["title"]?></h1>
+
+<a href="<?=$current_project["link"]?>">Link</a>

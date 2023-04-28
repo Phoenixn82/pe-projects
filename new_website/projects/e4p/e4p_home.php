@@ -8,6 +8,9 @@
             localStorage.setItem('scrollpos', window.scrollY);
         };
 </script>
+   
+
+
 
 <section class="e4p-body">
 <?php 
@@ -22,8 +25,6 @@ include("js_only/e4p_2_js.php");
 </section>
 
     
-    
-    <script src="e4p_1.js" defer></script>
-    <script src="e4p_2.js" defer></script>
-
-
+    <script src="projects/e4p/js_only/e4p_1.js" defer></script>
+    <script src="projects/e4p/js_only/e4p_2.js" defer></script>
+ 

@@ -17,6 +17,5 @@
        
     </footer>
 
-    <script src="js/text-scramble.js"></script>
   </body>
 </html>

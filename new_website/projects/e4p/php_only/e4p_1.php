@@ -1,7 +1,7 @@
 
 
 
-<script src="form_submitting_function.js" defer></script>
+<!-- <script src="form_submitting_function.js" defer></script> -->
 <?php
 // name_generator
 

@@ -37,3 +37,5 @@
 			</a>
 		</div>
 </section>	
+
+    <script src="js/text-scramble.js"></script>

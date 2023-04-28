@@ -1,6 +1,6 @@
 <!-- Name Generator -->
 <section class="form-parent">
-  <form>
+  <form id="name_generator">
     <div class="form name_generator">
 	<h1>First Name Generator JS</h1>
       <label for="name">What is your name?</label>
