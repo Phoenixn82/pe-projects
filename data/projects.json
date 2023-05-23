@@ -1,13 +1,23 @@
 [
 	{
 		"id": "figma",
-		"title": "Figma",
-		"link": "live/figma_project"
+		"title": "Figma Challenge",
+		"desc": "In this challenge, a Figma file is provided with three different layouts. The students in my Perpetual Education cohort were given one week to work on it and complete as much as they could using their preferred approach.",
+		"link": "live/figma_project",
+		"substack": "https://phoenixleenachtegaele.substack.com/p/figma-challenge-case-study",
+		"pic": "images/png/figma-detail.png"
+
+
 	},
 	{
 		"id": "e4p",
 		"title": "Exercises For Programmers",
-		"link": "?page=e4p"
+		"desc": "In this project I completed all of the challenges from the book \"Exercises For Programmers\" written by Brian P. Hogan. There are 57 challenges total and they are all written in PHP, JS, and Vue 2",
+		"link": "?page=e4p",
+		"substack": "#",
+		"pic": "images/png/e4p-detail.png"
+
+
 
 	}
 ]

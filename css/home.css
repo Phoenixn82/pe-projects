@@ -65,7 +65,7 @@
 
 /*animation*//*animation*/
 
-.animate-contact-icon:hover {
+.home-menu .contact:hover svg  {
   animation: wheel 3s infinite linear;
   transform-origin: center;
   transform-box: fill-box;
@@ -82,7 +82,7 @@
 
 }
 
-.animate-socials-icon:hover {
+.home-menu .socials:hover svg {
   -webkit-animation-name: spinner;
   -webkit-animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;

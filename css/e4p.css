@@ -6,7 +6,8 @@
 .form h1,
 button,
 label,
-.output {
+.output,
+#output {
   font-family: "helvetica";
   font-weight: 100;
   text-align: center;
@@ -93,6 +94,6 @@ button {
   text-align: center;
 }
 
-.output {
+.output, #output {
   margin-bottom: 3vh;
 }

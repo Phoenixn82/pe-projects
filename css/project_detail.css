@@ -1,0 +1,204 @@
+.detail-page,
+.detail-page-2 {
+  border: 1px solid white;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.detail-page-2 {
+  display: none;
+}
+
+.detail-section-left,
+.detail-section-left-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+
+}
+
+.detail-section-right,
+.detail-section-right-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.detail-title,
+.detail-title-2 {
+  border: 1px solid white;
+  padding: 1vw;
+}
+
+.detail-desc,
+.detail-desc-2 {
+  border: 1px solid white;
+  padding: 10px;
+  height: 100%;
+
+}
+
+/*typography*//*typography*//*typography*/
+
+.detail-page h1,
+.detail-page-2 h1 {
+  border: none;
+}
+
+.detail-button p,
+.detail-button-2 p {
+  font-size: clamp(5px, 2vw, 20px);
+}
+
+.detail-title h1,
+.detail-title-2 h1 {
+  text-align: center;
+  font-size: clamp(10px, 2vw, 40px);
+}
+
+.detail-desc p,
+.detail-desc-2 p {
+  line-height: 2.5vh;
+  text-align: center;
+  font-size: clamp(5px, 1vw, 20px);
+  max-width: 50ch;
+}
+
+/*actions*//*pictures*/
+
+.substack-link {
+  display: flex;
+  gap: 15px;
+}
+
+.substack-link a {
+  flex-grow: 1; /* Added property */
+}
+
+.substack-image {
+  width: auto;
+  height: auto;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.substack-image img {
+  width: 100%;
+  height: 20px;
+  object-fit: contain;
+}
+
+.detail-button,
+.detail-button-2 {
+  border: 1px solid white;
+  text-align: center;
+  padding: 20px;
+}
+
+.detail-pic img,
+.detail-pic-2 img{
+  max-height: 500px;
+  border: 1px solid white;
+  padding: 15px;
+
+
+}
+
+.detail-button,
+.detail-button-2 {
+  border: 1px solid white;
+  text-align: center;
+  padding: 20px;
+  flex-grow: 1;
+
+}
+
+/* medium size */
+@media (max-width: 1300px) {
+
+  .detail-button {
+    text-align: center;
+    padding: 1vw;
+    margin-top: 1.5vh;
+  }
+
+  .detail-desc p {
+    line-height: 2.5vh;
+    font-size: clamp(7px, 1.5vw, 30px);
+  }
+
+  .detail-title h1 {
+    font-size: clamp(15px, 3vw, 50px);
+  }
+
+  .detail-button p {
+    font-size: clamp(5px, 3vw, 30px);
+  }
+}
+
+/* small size */
+@media (max-width: 685px) {
+  .detail-page-2,
+  .detail-pic-2 {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    max-width: 40vh;
+  }
+
+  .detail-page-2 {
+    padding: 0px;
+  }
+
+  .detail-pic-2 {
+    margin: 0.5vh 2vw 0px 2vw;
+  }
+  .detail-pic-2 img {
+    border: none;
+    max-height: 20vh;
+    margin-bottom: 1vh;
+  }
+
+  .detail-page {
+    display: none;
+    padding: 0px;
+  }
+
+  .detail-desc-2 p {
+    line-height: 3vh;
+    font-size: clamp(15px, 4vw, 20px);
+    min-width: 10ch;
+  }
+
+  .detail-title-2 h1 {
+    font-size: clamp(20px, 7vw, 35px);
+  }
+
+  .detail-title-2 {
+    padding: 1vh;
+    margin: 0px;
+    margin-bottom: 2vw;
+  }
+
+  .detail-desc-2 {
+    min-height: 40vh;
+    margin: 0px;
+  }
+
+  .detail-button-2 {
+    margin-top: 4vw;
+    padding: 2vh;
+  }
+
+  .detail-button-2 p {
+    font-size: clamp(20px, 4.5vw, 40px);
+  }
+}

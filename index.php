@@ -1,5 +1,5 @@
  
-<?php include("partials/header.php"); ?>
+
 
 <?php 
 
@@ -8,6 +8,12 @@
 	if ( isset($_GET['page']) ) {
 		$page = $_GET['page'];
 	}
+
+include("partials/header.php"); ?>
+
+<?php 
+
+
 
 	if (file_exists("pages/$page.php")) {
 		include("pages/$page.php");

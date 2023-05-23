@@ -5,7 +5,7 @@
 				<h2>Projects</h2>
 			</a>
 		</div>
-
+		
 		<div class="icon socials">
 			<a class="icon-link" href="?page=socials">
 				<?php include("images/svg/socials-icon.php"); ?>

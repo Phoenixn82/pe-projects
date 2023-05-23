@@ -7,6 +7,14 @@
 		<meta property="og:image" content="images/png/metadata-image.png">
 		<title>Phoenix Nachtegaele</title>
 		<link rel="stylesheet" href="css/site.css">
+		<?php 
+		$favicon = "default.png";
+
+		if($page == "projects") {
+			$favicon = "projects.png";
+		} ?>
+		<link rel="icon" type="image/png" href="https://peprojects.dev/alpha-6/phoenix/new_website/images/$favicon">
+
 	</head>
 
 
