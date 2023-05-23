@@ -49,7 +49,7 @@
 	<div class="substack-link">
 		<a href="<?=$current_project["substack"]?>">
 			<div class='detail-button'>
-				<p>Full case study for this project</p>
+				<p>Full case study</p>
 			</div>
 		</a>
 		<div class="substack-image">
@@ -72,9 +72,15 @@
       <p><?=$current_project["desc"]?></p>
     </div>
   </div>
-  <a href="<?=$current_project["link"]?>">
-    <div class='detail-button'>
-      <p>run_<?=$current_project["id"]?>.exe</p>
-    </div>
-  </a>
+  <div class="substack-link">
+		<a href="<?=$current_project["link"]?>">
+			<div class='detail-button'>
+				<p>run_<?=$current_project["id"]?>.exe</p>
+			</div>
+		</a>
+
+		<a class="substack-image" href="<?=$current_project["substack"]?>">
+			<img src="images/svg/substack.svg" alt="Substack">
+		</a>
+  	</div>
 </section>

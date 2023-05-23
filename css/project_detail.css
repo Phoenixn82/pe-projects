@@ -77,7 +77,7 @@
 }
 
 .substack-link a {
-  flex-grow: 1; /* Added property */
+  flex-grow: 1; 
 }
 
 .substack-image {
@@ -108,8 +108,6 @@
   max-height: 500px;
   border: 1px solid white;
   padding: 15px;
-
-
 }
 
 .detail-button,
@@ -118,7 +116,6 @@
   text-align: center;
   padding: 20px;
   flex-grow: 1;
-
 }
 
 /* medium size */
@@ -126,21 +123,21 @@
 
   .detail-button {
     text-align: center;
-    padding: 1vw;
-    margin-top: 1.5vh;
   }
 
   .detail-desc p {
     line-height: 2.5vh;
-    font-size: clamp(7px, 1.5vw, 30px);
+    font-size: clamp(15px, 1.5vw, 30px);
   }
 
   .detail-title h1 {
     font-size: clamp(15px, 3vw, 50px);
   }
 
-  .detail-button p {
-    font-size: clamp(5px, 3vw, 30px);
+  .detail-button p,
+  .substack-image p 
+   {
+    font-size: clamp(5px, 3vw, 25px);
   }
 }
 
@@ -151,20 +148,7 @@
     display: flex;
     flex-direction: column;
     border: none;
-    max-width: 40vh;
-  }
-
-  .detail-page-2 {
-    padding: 0px;
-  }
-
-  .detail-pic-2 {
-    margin: 0.5vh 2vw 0px 2vw;
-  }
-  .detail-pic-2 img {
-    border: none;
-    max-height: 20vh;
-    margin-bottom: 1vh;
+    max-width: 80vw;
   }
 
   .detail-page {
@@ -172,14 +156,8 @@
     padding: 0px;
   }
 
-  .detail-desc-2 p {
-    line-height: 3vh;
-    font-size: clamp(15px, 4vw, 20px);
-    min-width: 10ch;
-  }
-
-  .detail-title-2 h1 {
-    font-size: clamp(20px, 7vw, 35px);
+  .detail-page-2 {
+    padding: 0px;
   }
 
   .detail-title-2 {
@@ -193,12 +171,37 @@
     margin: 0px;
   }
 
-  .detail-button-2 {
-    margin-top: 4vw;
-    padding: 2vh;
+  /*typography*/
+
+  .detail-title-2 h1 {
+    font-size: clamp(20px, 7vw, 35px);
   }
 
-  .detail-button-2 p {
-    font-size: clamp(20px, 4.5vw, 40px);
+  .detail-desc-2 p {
+    line-height: 2.5vh;
+    font-size: clamp(15px, 4vw, 20px);
+    margin-bottom: 1vh;
+  }
+
+
+  /*actions*//*pictures*/
+
+  .detail-pic-2 {
+    margin: 0.5vh 20px 0px 20px;
+  }
+
+  .detail-pic-2 img {
+    border: none;
+    margin-bottom: 1vh;
+  }
+
+
+}
+
+@media (max-width: 400px) {
+    .detail-page-2,
+    .detail-pic-2 {
+
+    max-width: 95vw;
   }
 }
