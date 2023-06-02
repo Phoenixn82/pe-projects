@@ -8,12 +8,25 @@
 		<title>Phoenix Nachtegaele</title>
 		<link rel="stylesheet" href="css/site.css">
 		<?php 
-		$favicon = "default.png";
+		$favicon = "home.png";
 
 		if($page == "projects") {
 			$favicon = "projects.png";
-		} ?>
-		<link rel="icon" type="image/png" href="https://peprojects.dev/alpha-6/phoenix/new_website/images/$favicon">
+		} 
+
+		if($page == "socials") {
+			$favicon = "socials.png";
+		} 
+
+		if($page == "resume") {
+			$favicon = "resume.png";
+		} 
+
+
+		?>
+		
+	<link rel="icon" type="image/png" href="https://peprojects.dev/alpha-6/phoenix/new_website/images/png/favicon/<?= $favicon ?>">
+
 
 	</head>
 
