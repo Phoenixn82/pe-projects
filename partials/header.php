@@ -7,22 +7,22 @@
 		<!-- Primary Meta Tags -->
 		<title>Phoenix Nachtegaele</title>
 		<meta name="title" content="Phoenix Nachtegaele">
-		<meta name="description" content="">
+		<meta name="description" content="Experienced Houston-based Web Developer showcasing past projects and offering expertise for your project. Explore my website for details and collaboration opportunities.">
 
 		<!-- Open Graph / Facebook -->
 		<meta property="og:type" content="website">
 		<meta property="og:url" content="https://peprojects.dev/alpha-6/phoenix/">
 		<meta property="og:title" content="Phoenix Nachtegaele">
-		<meta property="og:description" content="">
+		<meta property="og:description" content="Experienced Houston-based Web Developer showcasing past projects and offering expertise for your project. Explore my website for details and collaboration opportunities.">
 		<meta property="og:image" content="https://peprojects.dev/alpha-6/phoenix/images/png/metadata-image.png">
 
 		<!-- Twitter -->
 		<meta property="twitter:card" content="summary_large_image">
 		<meta property="twitter:url" content="https://peprojects.dev/alpha-6/phoenix/">
 		<meta property="twitter:title" content="Phoenix Nachtegaele">
-		<meta property="twitter:description" content="">
+		<meta property="twitter:description" content="Experienced Houston-based Web Developer showcasing past projects and offering expertise for your project. Explore my website for details and collaboration opportunities.">
 		<meta property="twitter:image" content="https://peprojects.dev/alpha-6/phoenix/images/png/metadata-image.png">
-		
+
 		<title>Phoenix Nachtegaele</title>
 		<link rel="stylesheet" href="css/site.css">
 		<?php 
