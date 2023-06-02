@@ -14,14 +14,14 @@
 		<meta property="og:url" content="https://peprojects.dev/alpha-6/phoenix/">
 		<meta property="og:title" content="Phoenix Nachtegaele">
 		<meta property="og:description" content="">
-		<meta property="og:image" content="images/png/metadata-image.png">
+		<meta property="og:image" content="https://peprojects.dev/alpha-6/phoenix/images/png/metadata-image.png">
 
 		<!-- Twitter -->
 		<meta property="twitter:card" content="summary_large_image">
 		<meta property="twitter:url" content="https://peprojects.dev/alpha-6/phoenix/">
 		<meta property="twitter:title" content="Phoenix Nachtegaele">
 		<meta property="twitter:description" content="">
-		<meta property="twitter:image" content="images/png/metadata-image.png">
+		<meta property="twitter:image" content="https://peprojects.dev/alpha-6/phoenix/images/png/metadata-image.png">
 		
 		<title>Phoenix Nachtegaele</title>
 		<link rel="stylesheet" href="css/site.css">
