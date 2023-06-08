@@ -46,7 +46,6 @@
 }
 
 .home-menu .icon h2 {
-  font-size: 2.5vh;
   position: absolute;
   text-align: center;
   margin-top: auto;
@@ -61,11 +60,22 @@
   grid-row: 2 / 3;
   text-align: center;
   font-size: clamp(15px, 3.5vw, 50px);
+
 }
 
+.word-container button {
+  border: none;
+  cursor: pointer;
+  font-size: clamp(15px, 3.5vw, 50px);
+  color: white;
+  background: none;
+  font-family: 'helvetica';
+  font-weight: 200;
+
+}
 /*animation*//*animation*/
 
-.home-menu .contact:hover svg  {
+.home-menu .contact:hover svg {
   animation: wheel 3s infinite linear;
   transform-origin: center;
   transform-box: fill-box;
@@ -123,4 +133,20 @@
     transform: rotateY(-360deg);
   }
 
+}
+
+
+.svg-container {
+  position: relative;
+align-items: center;
+}
+
+.resume-svg {
+  position: relative;
+  opacity: 1;
+}
+
+.resume-svg.hide {
+  opacity: 0;
+  pointer-events: none;
 }
